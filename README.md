@@ -13,7 +13,7 @@ This class is loosely based on materials prepared by the educators at VEX Roboti
 ### What You Need
 
 - A computer or tablet with internet access
-- An open mind, and willingness to learn
+- An open mind and willingness to learn
 
 ### How To Launch
 
@@ -22,6 +22,13 @@ Using your web browser, navigate to [https://vr.vex.com](https://vr.vex.com).  Y
 
 ### How To Load Examples
 
-First, you will need to download the example files.  The easiest way to download them is to download a zip file of the entire directory.
+1. First, you will need to download the example files to your computer.  The easiest way to download them is to download a zip file of the entire directory. You can do this by clicking the `Code` menu and choosing `Download ZIP`. Once downloaded, you will need to unzip these files to have access to the individual example files on your computer.
+![download](./_assets/images/github-download.png)
 
-On the file menu (upper left corner), choose `Load From Your Device` and choose the file you want to load.
+1. In the VEX application in your browser, int the file menu (upper left corner), choose `Load From Your Device` and choose the file you want to load.
+
+1. Once the file has been loaded into your virtual environment, you should see a screen similar to the following:
+![loaded](./_assets/images/vex-loaded.png)
+    > NOTE: If you do not see the Playground with the coral reef, click the `Playground` link at the top of the window.
+
+1. Experiment with this program and all of the options and see how much trash you can pick up off the ocean floor.
