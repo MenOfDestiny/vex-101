@@ -48,12 +48,12 @@ There are many different types of blocks you can use. They are grouped into diff
 
 This example gives a simple introduction to the front-facing distance sensor. Here are [more details](./_assets/documents/distance-sensor.pdf) on the distance sensor.
 
-There are two types of mazes in the VR Playground
+> There are two types of mazes in the VR Playground
 
-- Static Maze: The maze has the same walls in the same locations every time you run your robot through the maze.
-- Dynamic Maze: The maze walls are redrawn in different locations each time you reset the maze.
+> - Static Maze: The maze has the same walls in the same locations every time you run your robot through the maze.
+> - Dynamic Maze: The maze walls are redrawn in different locations each time you reset the maze.
 
-This example assumes you are using the **Static Maze**. The dynamic maze requires a higher skill level and if time allows, we will continue toward coding the robot to navigate a dynamic maze using the sensors on the robot itself.
+> This example assumes you are using the **Static Maze**. The dynamic maze requires a higher skill level and if time allows, we will continue toward coding the robot to navigate a dynamic maze using the sensors on the robot itself.
 
 Rather than giving specific driving directions to navigate the maze (drive forward 200mm, turn left 90 degrees, drive forward 200m, etc), this example adds the front distance sensor to "drive until it almost touches a wall".  This command is built up with 4 commands:
 
