@@ -44,5 +44,5 @@ There are many different types of blocks you can use. They are grouped into diff
 
 Here are a few examples we have discussed in class:
 
-1. [Wall Maze](./examples-wallmaze.md) - Use the ultrasonic distance sensor to help navigate a maze.
-1. [Autonomous Coral Reef](./examples-autonomousreef.md) - Use the ultrasonic distance sensor to increase the efficiency of the robot on the ocean floor.
+1. [Wall Maze](.examples-wallmaze.md) - Use the ultrasonic distance sensor to help navigate a maze.
+1. [Autonomous Coral Reef](.examples-autonomousreef.md) - Use the ultrasonic distance sensor to increase the efficiency of the robot on the ocean floor.
