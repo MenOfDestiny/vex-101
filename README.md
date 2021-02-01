@@ -20,6 +20,15 @@ This class is loosely based on materials prepared by the educators at VEX Roboti
 Using your web browser, navigate to [https://vr.vex.com](https://vr.vex.com).  You should see a screen that looks like this:
 ![home-page](./_assets/images/vex-home.png)
 
+### Block Types
+
+There are many different types of blocks you can use. They are grouped into different sections.  Here are some examples of the different types of blocks.
+
+- Drivetrain (blue) - Moving the robot's wheels (drive forward, turn right, etc.)
+- Control (yellow) - Waiting, Looping, checking conditions
+- Sensing (light blue) - Read values from the built-in sensors (distance, color, bumpers)
+- Operators - Comparing values, rounding or random numbers
+
 ### Examples
 
 1. First, you will need to download the example files to your computer.  The easiest way to download them is to download a zip file of the entire directory. You can do this by clicking the `Code` menu and choosing `Download ZIP`. Once downloaded, you will need to unzip these files to have access to the individual example files on your computer.
@@ -33,40 +42,7 @@ Using your web browser, navigate to [https://vr.vex.com](https://vr.vex.com).  Y
 
 1. Experiment with this program and all of the options and see how much trash you can pick up off the ocean floor.
 
-#### Block Types
+Here are a few examples we have discussed in class:
 
-There are many different types of blocks you can use. They are grouped into different sections.
-
-- Drivetrain (blue) - Moving the robot's wheels (drive forward, turn right, etc.)
-- Control (yellow) - Waiting, Looping, checking conditions
-- Sensing (light blue) - Read values from the built-in sensors (distance, color, bumpers)
-- Operators - Comparing values, rounding or random numbers
-
-#### Wall Maze
-
-[WallMaze.vrblocks](./examples/WallMaze.vrblocks)
-
-This example gives a simple introduction to the front-facing distance sensor. Here are [more details](./_assets/documents/distance-sensor.pdf) on the distance sensor.
-
-> There are two types of mazes in the VR Playground
-
-> - Static Maze: The maze has the same walls in the same locations every time you run your robot through the maze.
-> - Dynamic Maze: The maze walls are redrawn in different locations each time you reset the maze.
-
-> This example assumes you are using the **Static Maze**. The dynamic maze requires a higher skill level and if time allows, we will continue toward coding the robot to navigate a dynamic maze using the sensors on the robot itself.
-
-Rather than giving specific driving directions to navigate the maze (drive forward 200mm, turn left 90 degrees, drive forward 200m, etc), this example adds the front distance sensor to "drive until it almost touches a wall".  This command is built up with 4 commands:
-
-- drive forward
-- wait until - continues to execute the previous action until "something" happens.
-- comparison operator - compares one value to another
-- sensor input - reports the distance sensor's distance to the object it sees in front of it.
-
-All of these are layered together to look like this:
-![drive-wait-until](./_assets/images/drive-wait-until.png)
-
-> This example drives forward until the distance sensor detects an object within 50 millimeters.
-
-#### Autonomous Coral Reef
-
-[Autonomous Coral Reef](./examples/AutonomousCoralReef.vrblocks)
+1. [Wall Maze](./examples-wallmaze.md) - Use the ultrasonic distance sensor to help navigate a maze.
+1. [Autonomous Coral Reef](./examples-autonomousreef.md) - Use the ultrasonic distance sensor to increase the efficiency of the robot on the ocean floor.
