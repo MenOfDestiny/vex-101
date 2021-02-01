@@ -27,7 +27,7 @@ There are many different types of blocks you can use. They are grouped into diff
 - Drivetrain (blue) - Moving the robot's wheels (drive forward, turn right, etc.)
 - Control (yellow) - Waiting, Looping, checking conditions
 - Sensing (light blue) - Read values from the built-in sensors (distance, color, bumpers)
-- Operators - Comparing values, rounding or random numbers
+- Operators (green) - Comparing values, rounding or random numbers
 
 ### Examples
 
