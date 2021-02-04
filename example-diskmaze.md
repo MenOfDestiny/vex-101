@@ -1,6 +1,6 @@
 # Example - Disk Maze
 
-[Disk Maze](./examples/diskmaze.vrblocks)
+[Disk Maze](./examples/DiskMaze.vrblocks)
 
 ## Summary
 
