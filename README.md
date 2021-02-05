@@ -47,3 +47,5 @@ Here are a few examples we have discussed in class:
 1. [Wall Maze](example-wallmaze.md) - Use the ultrasonic distance sensor to help navigate a maze.
 1. [Autonomous Coral Reef](example-autonomousreef.md) - Use the ultrasonic distance sensor to increase the efficiency of the robot on the ocean floor.
 1. [Disk Maze Challenge](example-diskmaze.md) - Navigate the robot through a maze from start to finish using the color-detecting sensor on the front of the robot.
+
+Stay tuned for more examples!
